@@ -4,6 +4,7 @@ import Navigation from '../components/Navigation'
 import HowItWorks from '../components/HowItWorks'
 import LearnMoreButton from '../components/LearnMoreButton'
 import VideoDemo from '../components/VideoDemo'
+import Info from '../components/info'
 import './App.css';
 
 class App extends Component {
@@ -22,7 +23,8 @@ class App extends Component {
 
         <HowItWorks />
         <LearnMoreButton />
-        <VideoDemo/>
+        <VideoDemo />
+        <Info/>
       </div>
     );
   }
