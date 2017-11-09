@@ -12,9 +12,9 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <Navigation />
+          
           <img src={logo} className="App-logo" alt="logo" />
-
+         <Navigation />
 
           <p className="App-intro">
             Never write clinical notes again

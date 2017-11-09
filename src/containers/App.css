@@ -10,7 +10,7 @@
 .App-header {
   background-color: #222;
   height: 150px;
-  padding: 60px;
+  padding: 20px;
   color: white;
 }
 
@@ -20,6 +20,7 @@
 
 .App-intro {
   font-size: large;
+  padding-top: 30px;
 }
 
 @keyframes App-logo-spin {
@@ -33,12 +34,12 @@
   display: -ms-flexbox;
   display: flex;
   height: 0px;
-  justify-content: right;
+  justify-content: center;
   -webkit-box-align: right;
   -webkit-align-items: right;
       -ms-flex-align: right;
           align-items: right;
-  padding: 5px 10px;
+  padding: 10px 50px;
 }
 .Navigation ul li {
   list-style: none;
