@@ -11,6 +11,7 @@ class Navigation extends Component {
             <li>How it works</li>
             <li>Video Demo</li>
             <li>Team</li>
+            
           </ul>
         </nav>
       </div>

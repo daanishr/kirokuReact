@@ -1,13 +1,24 @@
 .flex-container {
+    
+    padding: 5em;
   display: flex;
-  
-   justify-content: center;
+  justify-content: center;
+  font-size: 19px;
   flex-direction: row;
 }
+.howItWorks {
+  padding: 2em 2em;
+}
+  
+
 .flex-container2 {
-    padding: 1em;
-    justify-content: center;
+    padding: 3em;
   display: flex;
-  flex-grow: 2;
+  justify-content: center;
+  font-size: 19px;
   flex-direction: row;
+}
+
+.icons {
+    color: #3498db;
 }

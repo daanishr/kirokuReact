@@ -1,0 +1,39 @@
+.flex-containerr {
+    flex-wrap: wrap-reverse;
+    padding: 3em;
+  display: flex;
+
+  justify-content: space-around;
+  font-size: 19px;
+  flex-direction: row;
+
+
+  
+}
+
+.ef{
+      border-radius: 44px;
+  margin-left: 10px;
+  overflow: hidden;
+  width: 200px;
+  height: 130px;
+  box-sizing: border-box;
+  border: 5px solid transparent;
+  -webkit-transition: border .125s ease;
+  transition: border .125s ease;
+}
+.imgur {
+  border-radius: 44px;
+  margin-left: 10px;
+  overflow: hidden;
+  width: 260px;
+  height: 250px;
+  box-sizing: border-box;
+  border: 5px solid transparent;
+  -webkit-transition: border .125s ease;
+  transition: border .125s ease;
+}
+
+.description {
+    font-size: 12pt;
+}
