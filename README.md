@@ -6,3 +6,6 @@
     $ cd kirokuReact
     $ npm install
     $ npm start
+
+Visit firebase hosted site: https://kiroku-808f8.firebaseapp.com/
+
