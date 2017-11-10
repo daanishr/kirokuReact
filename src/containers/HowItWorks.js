@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import LearnMore from '../components/LearnMoreButton'
 import './info.css'
 
 class HowItWorks extends Component {
@@ -14,6 +15,7 @@ class HowItWorks extends Component {
                 <p>Kiroku knows what is relevant and what is irrelevant. It can integrate seamlessly into your work flow, and we can have you up and running in 5 minutes</p>
                 <p></p>
                 <p>We are currently trialling the product to a closed group of beta testers. If you want to join our waiting list or learn more, please click below</p>
+                <LearnMore/>
             </div>
         );
     }

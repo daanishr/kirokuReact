@@ -21,7 +21,7 @@ class Team extends Component {
                         <p className="description">Hannah is a qualified dentist who has worked in practice, hospitals and public health. She finds taking notes to be incredibly boring.</p>
                     </div>
 
-                    <div>
+                    <div className="jay">
                         <img src={JayImage} className="imgur" alt="JayShah"/>
                         <h1>Jay Shah</h1>
                         <h5>Co-founder and CTO</h5>
