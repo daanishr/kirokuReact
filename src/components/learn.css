@@ -2,5 +2,7 @@
     maxWidth: 400;
     font-size: 25px;
     margin: '0 auto 10px' ;
+    padding-right: 2px;
+    padding-left: 2px;
     
 }

@@ -5,6 +5,7 @@ import './info.css'
 class HowItWorks extends Component {
     render() {
         return (
+            <div>
             <div id="how" className="howItWorks">
                 <h1>HOW IT WORKS</h1>
                 <p>Kiroku is Japanese for <i> "to document, to record or to take minutes of".</i></p>
@@ -15,8 +16,12 @@ class HowItWorks extends Component {
                 <p>Kiroku knows what is relevant and what is irrelevant. It can integrate seamlessly into your work flow, and we can have you up and running in 5 minutes</p>
                 <p></p>
                 <p>We are currently trialling the product to a closed group of beta testers. If you want to join our waiting list or learn more, please click below</p>
-                <LearnMore/>
-            </div>
+                
+                </div>
+                <div className="learnButton">
+                    <LearnMore />
+                </div>    
+            </div>    
         );
     }
 }

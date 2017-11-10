@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Separator from '../components/Separator';
 import LearnMoreButton from '../components/LearnMoreButton'
+import './video.css';
 
 class VideoDemo extends Component {
     render() {
@@ -10,11 +11,10 @@ class VideoDemo extends Component {
                 <Separator/>
                 <p>
                 </p>    
-                <div></div>
-                <div class="h_iframe">
-               <iframe height="2" width="2" src="https://www.youtube.com/watch?v=xXNWGBO14rM" frameborder="4" allowfullscreen></iframe>
-              </div>
+                <div className="video">
+                    <iframe width="100%" height="345" src="http://www.youtube.com/embed/oHg5SJYRHA0?autoplay=1" frameborder="0" allowfullscreen="true"></iframe>
                 
+                </div>
                 <LearnMoreButton />
             </div>
         );
