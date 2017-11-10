@@ -1,1 +1,5 @@
+.video {
+    justify-content: space-around;
+    display: flex;
+    padding-bottom: 5%;
 }
