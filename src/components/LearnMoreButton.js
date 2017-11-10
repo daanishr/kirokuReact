@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import separator from '../img/banner-separator.png';
+import Separator from './Separator';
 import { Button } from 'react-bootstrap';
 import './learn.css'
 
@@ -9,7 +9,7 @@ class LearnMoreButton extends Component {
             <div >
                <Button className="learnMore" bsStyle="primary" bsSize="large" block>Learn More</Button> 
                 <div></div>
-                <img src={separator} className="separator" alt="separate" />
+                <Separator/>
             </div>
         );
     }

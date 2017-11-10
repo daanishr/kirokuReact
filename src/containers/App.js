@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
 import logo from '../img/Kiroku-white.png';
-import Navigation from '../components/Navigation';
-import HowItWorks from '../components/HowItWorks';
-import LearnMoreButton from '../components/LearnMoreButton';
-import VideoDemo from '../components/VideoDemo';
-import Team from '../components/Team';
-import Info from '../components/info';
+import HowItWorks from './HowItWorks';
+import VideoDemo from './VideoDemo';
+import Team from './Team';
+import Info from './info';
 import Home from './Home';
 import './App.css';
 
