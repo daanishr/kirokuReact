@@ -34,7 +34,7 @@
   display: -ms-flexbox;
   display: flex;
   height: 0px;
-  justify-content: center;
+  justify-content: space-around;
   -webkit-box-align: right;
   -webkit-align-items: right;
       -ms-flex-align: right;
